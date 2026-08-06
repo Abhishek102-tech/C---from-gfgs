@@ -6,8 +6,8 @@ void linearprint(int i,int n){
     if(i<1){
         return; 
     }
-    linearprint(i--,n);
-    cout<<i;
+    linearprint(i-1,n);
+    cout<<i<<endl;
 }
 
 int main(){
